@@ -13,7 +13,7 @@ This is far from an exhaustive list, but gives a feel for the scope of this usag
 Three proposals have been floated for potentially addressing this topic:
 
 1. two new name part structure types (one for primary given name, one for primary surname).
-2. new markup in the PersonalName datatype, perhaps an underscore of asterisk.
+2. new markup in the PersonalName datatype, perhaps an underscore or asterisk.
 3. a name part substructure.
 
 Proposal 1 is not very easily added using the GEDCOM 7 extension mechanisms, and arguably is not backwards compatible (e.g. in the event that whatever additional markup is added is already in use in someone's name).
