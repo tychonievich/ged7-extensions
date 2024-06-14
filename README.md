@@ -3,7 +3,7 @@ Extensions to gedcom 7 arising from discussions on <https://gtihub.com/FamilySea
 
 # Name part qualifiers
 
-Documented in [primary-name-parts.md](primary-name-parts.md)
+Documented in [primary-name-part.md](primary-name-part.md)
 
 Used to indicate that a particular name part is primary (e.g. a rufname, used name, or primary surname)
 
