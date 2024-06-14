@@ -1,0 +1,20 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration
+
+uri: http://gedcomx.org/Primary
+
+extension tags:
+  - _GX_PRIMARY
+
+specification:
+  - A designation for the name of most prominent in importance among the names
+    of that type (e.g., the primary given name).
+
+value of:
+  - "https://github.com/tychonievich/ged7-extensions#enumset-name-part-qualifiers"
+
+contact: "https://github.com/tychonievich/ged7-extensions"
+...

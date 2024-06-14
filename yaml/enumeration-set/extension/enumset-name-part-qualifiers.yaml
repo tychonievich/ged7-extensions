@@ -1,0 +1,13 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: enumeration set
+
+uri: https://github.com/tychonievich/ged7-extensions#enumset-name-part-qualifiers
+
+enumeration values:
+  - "http://gedcomx.org/Primary"
+
+contact: "https://github.com/tychonievich/ged7-extensions"
+...

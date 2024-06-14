@@ -1,0 +1,31 @@
+%YAML 1.2
+---
+lang: en-US
+
+type: structure
+
+uri: https://github.com/tychonievich/ged7-extensions#name-part-qualifier
+
+extension tags:
+  - _PART_QUALIFIER
+
+specification:
+  - | 
+    A type-like descriptor of a name part, giving more details than the name 
+    part structure type itself provides.
+
+label: 'Kind or qualifier of a name part'
+
+payload: https://gedcom.io/terms/v7/type-Enum
+
+enumeration set: "https://github.com/tychonievich/ged7-extensions#enumset-name-part-qualifiers"
+
+substructures:
+  "https://gedcom.io/terms/v7/PHRASE": "{0:1}"
+
+superstructures:
+  "https://gedcom.io/terms/v7/GIVN": "{0:M}"
+  "https://gedcom.io/terms/v7/SURN": "{0:M}"
+
+contact: "https://github.com/tychonievich/ged7-extensions"
+...
