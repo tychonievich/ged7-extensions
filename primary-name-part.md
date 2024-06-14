@@ -127,8 +127,6 @@ using the following URI prefixes:
 | `gx`         | `http://gedcomx.org/` |
 | `ext`        | `https://github.com/tychonievich/ged7-extensions` |
 
-## Schema
-
 Per the GEDOCM 7 specification, the tags used for documented extension structures may be changed to avoid tag collisions between independent extensions. However, the following tags are recommended:
 
 ```gedcom
@@ -163,7 +161,7 @@ n NSFX <Text>                              {0:M}  g7:NSFX
 
 ### Structure Types
 
-#### `_PART_QUALIFIER` (Name Part Qualifier) `<ext:name-part-qualifier>
+#### `_PART_QUALIFIER` (Name Part Qualifier) `<ext:name-part-qualifier>`
 
 A type-like descriptor of a name part, giving more details than the name 
     part structure type itself provides.
