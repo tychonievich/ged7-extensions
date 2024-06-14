@@ -13,6 +13,8 @@ specification:
   - A designation for the name of most prominent in importance among the names
     of that type (e.g., the primary given name).
 
+label: 'Primary name, preferred name, or rufname'
+
 value of:
   - "https://github.com/tychonievich/ged7-extensions#enumset-name-part-qualifiers"
 
