@@ -16,10 +16,10 @@ Three proposals have been floated for potentially addressing this topic:
 2. new markup in the PersonalName datatype, perhaps an underscore or asterisk.
 3. a name part substructure.
 
-Proposal 1 is not very easily added using the GEDCOM 7 extension mechanisms, and arguably is not backwards compatible (e.g. in the event that whatever additional markup is added is already in use in someone's name).
+Proposal 1 is not very easily added using the GEDCOM 7 extension mechanisms, and arguably is not backwards compatible (for example, if a video gamer with nickname `_underscore_` had their name entered as "`1 NAME Hans _underscore_ Jansen`" then adding underscore as markup would break that old file).
 
-Proposal 2 was notably taken by GEDCOM-L in its [_RUFNAME extension to 5.5.1](https://genealogy.net/GEDCOM/GEDCOM551%20GEDCOM-L%20Addendum-R2.pdf#page=24).
-However, proposal 2 leads to either (a) the same name part appearing multiple times (as both `GIVN` and `_RFNAME`; this is what GEDCOM-L proposes), possibly leading to confusion about the quantity of name parts (usually disambiguable via the PersonalName datatype payload);
+Proposal 2 was notably taken by GEDCOM-L in its widely-used [_RUFNAME extension to 5.5.1](https://genealogy.net/GEDCOM/GEDCOM551%20GEDCOM-L%20Addendum-R2.pdf#page=24).
+However, proposal 2 leads to either (a) the same name part appearing multiple times (as both `GIVN` and `_RUFNAME`; this is what GEDCOM-L proposes), possibly leading to confusion about the quantity of name parts (usually disambiguable via the PersonalName datatype payload);
 or (b) using `_RUFNAME` in place of `GIVN`, likely losing information for applications not understanding the extension.
 
 Proposal 3 can cause information loss through applications that do not understand the extension, but cannot cause confusion about meaning, and is what this document describes.
