@@ -37,7 +37,7 @@ lang: en-US
 
 type: structure
 
-uri: https://tychonievich.github.io/ged7-extensions/#name-part-qualifier
+uri: https://github.com/tychonievich/ged7-extensions#name-part-qualifier
 
 extension tags:
   - _PART_QUALIFIER
@@ -51,7 +51,7 @@ label: 'Kind or qualifier of a name part'
 
 payload: https://gedcom.io/terms/v7/type-Enum
 
-enumeration set: "https://tychonievich.github.io/ged7-extensions/#enumset-name-part-qualifiers"
+enumeration set: "https://github.com/tychonievich/ged7-extensions#enumset-name-part-qualifiers"
 
 substructures:
   "https://gedcom.io/terms/v7/PHRASE": "{0:1}"
@@ -60,7 +60,7 @@ superstructures:
   "https://gedcom.io/terms/v7/GIVN": "{0:M}"
   "https://gedcom.io/terms/v7/SURN": "{0:M}"
 
-contact: "https://tychonievich.github.io/ged7-extensions/"
+contact: "https://github.com/tychonievich/ged7-extensions"
 ...
 ```
 
@@ -78,12 +78,12 @@ lang: en-US
 
 type: enumeration set
 
-uri: https://tychonievich.github.io/ged7-extensions/#enumset-name-part-qualifiers
+uri: https://github.com/tychonievich/ged7-extensions#enumset-name-part-qualifiers
 
 enumeration values:
   - "http://gedcomx.org/Primary"
 
-contact: "https://tychonievich.github.io/ged7-extensions/"
+contact: "https://github.com/tychonievich/ged7-extensions"
 ...
 ```
 
@@ -110,9 +110,9 @@ specification:
     of that type (e.g., the primary given name).
 
 value of:
-  - "https://tychonievich.github.io/ged7-extensions/#enumset-name-part-qualifiers"
+  - "https://github.com/tychonievich/ged7-extensions#enumset-name-part-qualifiers"
 
-contact: "https://tychonievich.github.io/ged7-extensions/"
+contact: "https://github.com/tychonievich/ged7-extensions"
 ...
 ```
 
@@ -125,7 +125,7 @@ using the following URI prefixes:
 |--------------|------------|
 | `g7`         | `https://gedcom.io/terms/v7/` |
 | `gx`         | `http://gedcomx.org/` |
-| `ext`        | `https://tychonievich.github.io/ged7-extensions/` |
+| `ext`        | `https://github.com/tychonievich/ged7-extensions` |
 
 ## Schema
 
@@ -136,7 +136,7 @@ Per the GEDOCM 7 specification, the tags used for documented extension structure
 1 GEDC
 2 VERS 7.0
 1 SCHMA
-2 TAG _PART_QUALIFIER https://tychonievich.github.io/ged7-extensions/#name-part-qualifier
+2 TAG _PART_QUALIFIER https://github.com/tychonievich/ged7-extensions#ged7-extensions/#name-part-qualifier
 2 TAG _GX_PRIMARY http://gedcomx.org/Primary
 ```
 

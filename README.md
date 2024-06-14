@@ -9,7 +9,7 @@ Used to indicate that a particular name part is primary (e.g. a rufname, used na
 
 Provides
 
-- <code title="name-part-qualifier">https://tychonievich.github.io/ged7-extensions/#name-part-qualifier</code>
-- <code title="enumset-name-part-qualifiers">https://tychonievich.github.io/ged7-extensions/#enumset-name-part-qualifiers</code>
+- <code name="name-part-qualifier">https://github.com/tychonievich/ged7-extensions#name-part-qualifier</code>
+- <code name="enumset-name-part-qualifiers">https://github.com/tychonievich/ged7-extensions#enumset-name-part-qualifiers</code>
 - <http://gedcomx.org/Primary>
 
